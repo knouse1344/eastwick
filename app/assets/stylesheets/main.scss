@@ -20,13 +20,13 @@
 		text-align: center;
 
 		h1 {
-			font-family: 'Ferro Rosso';
+			font-family: 'Crimson Text', serif;
 			color: #fff;
 			font-size: 72px;
 		}
 
 		h3 {
-			font-family: 'Cedarville Cursive', cursive;
+			font-family: 'Crimson Text', serif;
 			font-size: 4em;
 			color: #fff;
 			padding: .75em 0;
@@ -36,7 +36,7 @@
 
 			span {
 				font-size: .5em;
-				font-family: 'Quattrocento Sans', sans-serif;
+				font-family: 'Crimson Text', serif;
 			}
 		}
 
@@ -65,7 +65,7 @@
 			margin: 0;
 			padding-top: 25px;
 			color: #fff;
-			font-family: 'Open Sans', sans-serif;
+			font-family: 'Crimson Text', serif;
 			font-weight: 600;
 			font-size: 1.3em;
 			text-transform: uppercase;
@@ -83,54 +83,16 @@
 	}
 }
 
-.swipe {
-	overflow: hidden;
-	visibility: hidden;
-	height: 100%;
-	position: relative;
 
-	.swipe-wrap {
-		overflow: hidden;
-		position: relative;
-		height: 100%;
-
-	  	.item {
-	  		float:left;
-		    width:100%;
-		    height: 100%;
-		    position: relative;
-
-		    div {
-		    	width: 100%;
-		    	height: 100%;
-		    	opacity: 1;
-		    }
-
-		    .wakeup {
-		    	background: url('/assets/indexbg.jpg');
-		    	background-size: cover;
-		    	background-position: center;
-		    }
-
-		    .turkey {
-		    	background: url('/assets/bar_bg.jpg');
-		    	background-size: cover;
-		    	background-position: center;
-		    }
-
-		    .limo {
-		    	background: url('/assets/main_bg.jpg');
-		    	background-size: cover;
-		    	background-position: center;
-		    }
-
-		    .soup {
-		    	background: url('/assets/science_bg.jpg');
-		    	background-size: cover;
-		    	background-position: center;
-		    }
-		}
-	}
+.background {
+	background: url('/assets/background.jpg');
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
 }
 
 
